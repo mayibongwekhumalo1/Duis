@@ -60,7 +60,6 @@ a {
   background-size: cover;
   width: 100%;
   height: 80vh;
-  border: 2px solid red;
 }
 .banner .navbar {
   background-color: transparent;
@@ -70,6 +69,15 @@ a {
   padding-right: 80px;
   height: 10vh;
   align-items: center;
+}
+.banner .navbar .logo {
+  width: 10%;
+  height: 100%;
+  border: solid red;
+}
+.banner .navbar .logo img {
+  width: 100%;
+  height: 100%;
 }
 .banner .navbar .nav-item {
   width: 350px;
@@ -116,7 +124,6 @@ a {
   min-height: 250px;
   margin-top: 2rem;
   padding: 0 2rem;
-  border: 2px solid red;
 }
 .duis-container .duis-item {
   display: flex;
@@ -138,7 +145,6 @@ a {
   min-height: 550px;
   width: 100%;
   background-color: #f7f7f7;
-  border: 2px solid red;
 }
 .design-container .img-container {
   width: 30%;
@@ -185,7 +191,6 @@ a {
   justify-content: center;
   width: 100%;
   min-height: 500px;
-  border: 2px solid red;
 }
 .client-container h2 {
   font-size: 24px;
@@ -229,7 +234,6 @@ a {
   height: 200px;
   width: 100%;
   gap: 2rem;
-  border: solid red;
 }
 .subscribe-container h2 {
   font-size: 24px;
@@ -240,7 +244,6 @@ a {
   display: flex;
   justify-content: center;
   gap: 5px;
-  border: solid red;
 }
 .subscribe-container form > * {
   height: 35px;
@@ -276,7 +279,6 @@ footer {
   align-items: center;
   justify-content: center;
   background-color: #393939;
-  border: solid red;
 }
 footer .footer-logo {
   display: flex;
@@ -300,7 +302,6 @@ footer .footer-content ul {
   margin-top: 10px;
   gap: 30px;
   margin-bottom: 30px;
-  border: solid red;
 }
 footer .footer-content ul a {
   color: white;
@@ -314,7 +315,6 @@ footer .footer-content ul a:hover {
 footer p {
   color: white;
   margin-bottom: 20px;
-  border: solid red;
 }
 footer p span {
   color: rgb(3, 44, 3);
@@ -349,14 +349,6 @@ footer p span {
   .banner {
     width: 100%;
   }
-  .banner .navbar .logo {
-    width: 50px;
-    height: 50px;
-  }
-  .banner .navbar .logo img {
-    width: 50px;
-    height: 50px;
-  }
   .banner .banner-content h1 {
     font-size: 1.2rem;
   }
@@ -389,6 +381,9 @@ footer p span {
   }
   .subscribe-container {
     text-align: center;
+  }
+  .subscribe-container h2 {
+    font-size: 1.3rem;
   }
   .subscribe-container form {
     width: 100%;
@@ -426,7 +421,7 @@ footer p span {
 }
 @media (max-width: 475px) {
   .banner .navbar .logo img {
-    width: 80px;
-    height: 80px;
+    width: 100%;
+    height: 100%;
   }
 }/*# sourceMappingURL=style.css.map */
