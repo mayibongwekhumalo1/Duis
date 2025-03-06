@@ -352,11 +352,11 @@ footer p span {
   .duis-container {
     flex-direction: column;
   }
-  .duis-container .duis-item {
-    width: 50%;
+  .duis-container mg .duis-item {
+    width: 80%;
     margin-bottom: 10px;
   }
-  .duis-container .duis-item h2 {
+  .duis-container mg .duis-item h2 {
     font-size: 1.3rem;
     margin-bottom: 20px;
   }
