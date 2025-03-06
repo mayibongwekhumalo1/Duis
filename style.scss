@@ -425,7 +425,7 @@ p{
 
 
 
-
+// responsive
 
 
 
@@ -489,6 +489,18 @@ p{
             font-size: 1.2rem;
         }
     }
+
+
+
+    .client-container{
+        .client-reviews-container{
+            .client-review{
+                padding-bottom: 20px;
+            }
+        }
+    }
+
+
 }
 
 
@@ -558,9 +570,11 @@ p{
 // client section
 
 .client-container{
+    padding-bottom: 20px;
     .client-reviews-container{
         flex-direction: column;
         gap: 40px;
+       
     }
 }
 
@@ -576,6 +590,7 @@ p{
 
 .subscribe-container{
     text-align: center;
+    
    
    form{
     width: 100%;
@@ -647,7 +662,16 @@ footer{
 
 @media(max-width:475px){
 
-
+.banner{
+    .navbar{
+        .logo{
+            img{
+                width: 80px;
+                height: 80px;
+            }
+        }
+    }
+}
 
 
 
