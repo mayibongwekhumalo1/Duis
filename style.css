@@ -28,6 +28,7 @@ footer, header, hgroup, menu, nav, section {
 body {
   line-height: 1;
   overflow-x: hidden;
+  font-family: poppins;
 }
 
 ol, ul {
@@ -203,13 +204,14 @@ a {
   justify-content: start;
 }
 .client-container .client-reviews-container .reviws-item p {
-  font-size: 18px;
+  font-size: 15px;
   margin-bottom: 20px;
   font-weight: lighter;
+  color: #000;
+  font-weight: 400;
 }
 .client-container .client-reviews-container .reviws-item span {
   font-size: 15px;
-  background-color: yellow;
   padding: 10px;
   width: 90%;
 }
@@ -331,16 +333,24 @@ footer p span {
   .banner .banner-content h1 {
     font-size: 1.5rem;
   }
+  .client-container .client-reviews-container .client-reviw p {
+    font-size: 1.2rem;
+  }
 }
 @media (max-width: 576px) {
   .banner {
     width: 100%;
   }
+  .banner .navbar .logo {
+    width: 50px;
+    height: 50px;
+  }
+  .banner .navbar .logo img {
+    width: 50px;
+    height: 50px;
+  }
   .banner .banner-content h1 {
     font-size: 1.2rem;
-  }
-  .banner .client-container .client-reviews-container .client-review {
-    padding-bottom: 20px;
   }
   .duis-container {
     flex-direction: column;
@@ -365,6 +375,9 @@ footer p span {
   .client-container .client-reviews-container {
     flex-direction: column;
     gap: 40px;
+  }
+  .client-container .client-reviews-container p {
+    font-size: 0.8rem;
   }
   .subscribe-container {
     text-align: center;

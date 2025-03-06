@@ -26,6 +26,7 @@ footer, header, hgroup, menu, nav, section {
 body {
 	line-height: 1;
     overflow-x: hidden;
+    font-family: poppins;
 }
 ol, ul {
 	list-style: none;
@@ -265,14 +266,16 @@ h2{
         justify-content: start;
         
         p{
-            font-size: 18px;
+            font-size: 15px;
             margin-bottom: 20px;
             font-weight: lighter;
+            color: #000;
+            font-weight: 400;
+            
         }
 
         span{
             font-size: 15px;
-            background-color: yellow;
             padding: 10px;
             width: 90%;
         }
@@ -440,6 +443,7 @@ p{
 
 
 @media(max-width:768px){
+    
 
     .banner{
         height: 50vh;
@@ -448,6 +452,7 @@ p{
 
 
         .navbar{
+
             background-color: rgba(0, 0, 0, 0.238);
                 padding-left: 10px;
                 padding-right: 10px;
@@ -475,6 +480,21 @@ p{
 
 
     }
+
+
+    .client-container{
+        .client-reviews-container{
+            .client-reviw{
+                p{
+                    font-size: 1.2rem;
+                }
+            }
+        }
+    }
+
+
+
+
 }
 
 
@@ -491,6 +511,17 @@ p{
 .banner{
     width: 100%;
 
+    .navbar{
+        .logo{
+            width: 50px;
+            height: 50px;
+            img{
+                width: 50px;
+                height: 50px;
+            }
+        }
+    }
+
     .banner-content{
         h1{
             font-size: 1.2rem;
@@ -499,13 +530,6 @@ p{
 
 
 
-    .client-container{
-        .client-reviews-container{
-            .client-review{
-                padding-bottom: 20px;
-            }
-        }
-    }
 
 
 }
@@ -581,6 +605,11 @@ p{
     .client-reviews-container{
         flex-direction: column;
         gap: 40px;
+
+
+        p{
+            font-size: 0.8rem;
+        }
        
     }
 }
