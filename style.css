@@ -60,6 +60,7 @@ a {
   background-size: cover;
   width: 100%;
   height: 80vh;
+  border: 2px solid red;
 }
 .banner .navbar {
   background-color: transparent;
@@ -115,6 +116,7 @@ a {
   min-height: 250px;
   margin-top: 2rem;
   padding: 0 2rem;
+  border: 2px solid red;
 }
 .duis-container .duis-item {
   display: flex;
@@ -136,6 +138,7 @@ a {
   min-height: 550px;
   width: 100%;
   background-color: #f7f7f7;
+  border: 2px solid red;
 }
 .design-container .img-container {
   width: 30%;
@@ -182,6 +185,7 @@ a {
   justify-content: center;
   width: 100%;
   min-height: 500px;
+  border: 2px solid red;
 }
 .client-container h2 {
   font-size: 24px;
@@ -225,6 +229,7 @@ a {
   height: 200px;
   width: 100%;
   gap: 2rem;
+  border: solid red;
 }
 .subscribe-container h2 {
   font-size: 24px;
@@ -232,28 +237,28 @@ a {
   font-weight: 800;
 }
 .subscribe-container form {
-  width: 80%;
   display: flex;
   justify-content: center;
   gap: 5px;
+  border: solid red;
+}
+.subscribe-container form > * {
+  height: 35px;
+  width: 33.3333%;
 }
 .subscribe-container form .text {
-  width: 150px;
-  height: 40px;
   background-color: white;
   border-top-left-radius: 20px;
   border-bottom-left-radius: 20px;
   border: none;
-  padding-left: 30px;
 }
 .subscribe-container form .text-2 {
-  width: 150px;
-  height: 40px;
-  background-color: white;
   border-top-right-radius: 20px;
   border-bottom-right-radius: 20px;
+}
+.subscribe-container form input[placeholder] {
   border: none;
-  padding-left: 30px;
+  background-color: white;
 }
 .subscribe-container form .btn {
   width: 120px;
@@ -271,6 +276,7 @@ footer {
   align-items: center;
   justify-content: center;
   background-color: #393939;
+  border: solid red;
 }
 footer .footer-logo {
   display: flex;
@@ -294,6 +300,7 @@ footer .footer-content ul {
   margin-top: 10px;
   gap: 30px;
   margin-bottom: 30px;
+  border: solid red;
 }
 footer .footer-content ul a {
   color: white;
@@ -307,6 +314,7 @@ footer .footer-content ul a:hover {
 footer p {
   color: white;
   margin-bottom: 20px;
+  border: solid red;
 }
 footer p span {
   color: rgb(3, 44, 3);
@@ -384,7 +392,6 @@ footer p span {
   }
   .subscribe-container form {
     width: 100%;
-    padding: 20px;
   }
   .subscribe-container form .text {
     width: 80px;
